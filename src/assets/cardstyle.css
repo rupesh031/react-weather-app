@@ -1,0 +1,131 @@
+@import "https://fonts.googleapis.com/css?family=Lato:300";
+@import "https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css";
+
+.Minicontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-grow: 4; 
+  flex-wrap: wrap;
+} 
+.Mini{
+  margin: 10px 10px;
+}
+
+
+#card {
+  box-shadow: 9px 7px 40px -6px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  width: 400px;
+  padding: 25px;
+  height: 400px;
+  min-height: 300px;
+ 
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+#Mcard{
+  box-shadow: 9px 7px 40px -6px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  width: 150px;
+  padding: 10px;
+  height: 100px;
+  margin: auto;
+  border-radius: 5px;
+}
+#card .details {
+ 
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 10px;
+  color: #888;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: color 2s ease;
+}
+#card .details .right {
+  text-align: right;
+}
+#card .details #date {
+  margin: 4px 0;
+}
+#card .details #summary {
+  font-weight: 600;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+#card .details .temp {
+  font-size: 60px;
+  line-height: 60px;
+}
+.weather {
+  background-color: #dae3fd;
+  transition: background-color 2s ease;
+}
+
+.infos {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  color: #888;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.element {
+  margin:10px 10px;
+  width: 55%;
+}
+.element2{
+  margin:10px 10px;
+  width: 45%;
+}
+.icon{
+  width: 130px;
+}
+.row{
+ display:flex;
+ flex-direction: row;
+ text-align: left;
+}
+.detail{
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(194, 24, 2);
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+.align{
+  margin: 20px;
+  width: 150px;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center
+}
+.Melement{
+  text-align: center;
+  margin-bottom: 4px
+}
+.title{
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(255, 242, 242);
+  font-weight: 600;
+
+}
