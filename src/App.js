@@ -32,7 +32,6 @@ function App() {
       <div>
         <Search getResult={on_Change} />{" "}
       </div>
-
       <div>
         {" "}
         <CardComp data={currData} />

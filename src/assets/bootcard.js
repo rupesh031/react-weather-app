@@ -19,7 +19,7 @@ function Mini({ data }) {
     WEEK_DAYS.slice(0, dayInAWeek)
   );
   return (
-    <div className="align">
+    <div className="align Mini">
       <Card>
         <Card.Img variant="top" src={`./img/${data.weather[0].icon}.svg`} />
         <Card.Body>
