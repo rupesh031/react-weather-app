@@ -29,12 +29,7 @@ function App() {
     console.log(forecastData);
   };
   return (
-    <div>
-      {/* <div className="background-container">
-        <div className="stars"></div>
-        <div className="twinkling"></div>
-        <div className="clouds"></div>
-      </div> */}
+    <div className="app">
       <div class="snow"></div>
       <div class="snow"></div>
       <div class="snow"></div>
